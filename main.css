@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    padding: 1%
+}
+nav{
+    background: gainsboro;
+    min-height: 40px;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+section {
+    min-height: 200px;
+    padding: 1%;
+    background-color: gray;
+}
+  
+section:nth-child(even) {
+    background-color: gainsboro;
+}
+div{
+    outline: solid 2px black;
+    padding: 2px;
+    margin: 2px;
+}
+li:nth-child(odd){
+    background-color: gainsboro;
+}
+@media screen and (min-width: 600px){
+    body{
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    section{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

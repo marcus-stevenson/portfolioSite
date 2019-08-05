@@ -26,6 +26,9 @@ div{
     padding: 2px;
     margin: 2px;
 }
+img{
+    width: 75%;
+}
 li:nth-child(odd){
     background-color: gainsboro;
 }

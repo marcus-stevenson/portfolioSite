@@ -11,6 +11,8 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    position: sticky;
+    top: 0;
 }
 section {
     min-height: 200px;
@@ -22,16 +24,25 @@ section:nth-child(even) {
     background-color: gainsboro;
 }
 div{
-    outline: solid 2px black;
     padding: 2px;
     margin: 2px;
 }
 img{
-    width: 75%;
+    width: 100%;
 }
 li:nth-child(odd){
     background-color: gainsboro;
 }
+.prjContainer{
+    display: flex;
+    flex-direction: column;
+}
+.prjTitleContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 @media screen and (min-width: 600px){
     body{
         width: 85%;
@@ -42,5 +53,15 @@ li:nth-child(odd){
         width: 90%;
         margin-left: auto;
         margin-right: auto;
+    }
+    .prjInfoContainer{
+        display: flex;
+        flex-direction: row;
+    }
+    .prjDescription{
+        width: 60%;
+    }
+    .prjTech{
+        width: 40%;
     }
 }

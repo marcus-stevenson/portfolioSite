@@ -1,8 +1,39 @@
 *{
     box-sizing: border-box;
 }
+h1{
+    font-family: 'Vollkorn', serif;
+    font-size: 60px;
+    margin-left: 8%;
+}
 header{
-    padding: 1%
+    max-height: 300px;
+}
+.headerText{
+    font-family: 'Crimson Pro', serif;
+    font-size: 24px;
+}
+.hT1{
+    margin-left: 5%;
+}
+.hT2{
+    margin-left: 17%;
+}
+.vidParentCont{
+    position: relative;
+}
+.vidCont{
+    z-index: -1;
+}
+.headerVid{
+    width: 100%;
+    opacity: .65;
+}
+.headerCont{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    width: 100%;
 }
 nav{
     background: gainsboro;
@@ -23,10 +54,6 @@ section {
 section:nth-child(even) {
     background-color: gainsboro;
 }
-div{
-    padding: 2px;
-    margin: 2px;
-}
 img{
     width: 100%;
 }
@@ -44,13 +71,8 @@ li:nth-child(odd){
 }
 
 @media screen and (min-width: 600px){
-    body{
+    main{
         width: 85%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    section{
-        width: 90%;
         margin-left: auto;
         margin-right: auto;
     }

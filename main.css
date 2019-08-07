@@ -1,27 +1,101 @@
 *{
     box-sizing: border-box;
 }
-header{
-    padding: 1%
+/* HEADER STYLES */
+h1{
+    font-family: 'Vollkorn', serif;
+    font-size: 72px;
+    margin-left: 8%;
+    color: #DD2E30;
 }
-nav{
-    background: gainsboro;
-    min-height: 40px;
+header{
+    padding: 2%;
+    background-image: url(././images/headerImg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.opacityBox{
+    height: 100%;
+    width: 100%;
     padding: 1%;
+    background-color: rgba(255,255,255, .8);
+    border-radius: 8px;
+    line-height: 0.9;
+}
+.headerText{
+    font-family: 'Crimson Pro', serif;
+    font-size: 36px;
+    color: #DD2E30;
+}
+.hT1{
+    margin-left: 5%;
+    margin-top:8px;
+    margin-bottom: 12px;
+}
+.hT2{
+    margin-left: 17%;
+    margin-bottom: 8px;
+}
+/* NAV STYLES */
+nav{
+    background: white;
+    min-height: 40px;
+    padding: 1.5%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     position: sticky;
     top: 0;
 }
+input[type=button]{
+    width: 25%;
+    font-family: 'Crimson Pro', serif;
+    font-size: 24px;
+    padding: 1%;
+    background: transparent;
+    border-radius: 2px;
+}
+#projectBtn{
+    border: solid 2px #1B626A;
+    color:#2B9DA9;
+}
+#aboutBtn{
+    color: #DD2E30;
+    border: solid 2px #A62324;
+}
+#linksBtn{
+    color: #F79C33;
+    border: solid 2px #D8892D;
+}
+
+/* MAIN STYLES*/
 section {
     min-height: 200px;
     padding: 1%;
-    background-color: gray;
+    background-color:white;
+    border-radius: 2px;
 }
-  
-section:nth-child(even) {
-    background-color: gainsboro;
+.projSect{
+    border: solid 2px #1B626A;
+}
+.aboutSect{
+    border: solid 2px #A62324;
+}
+.linksSect{
+    border: solid 2px #D8892D;
+}
+h2{
+    font-family: 'Crimson Pro', serif; 
+    padding: 1%;
+    font-size: 36px;
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.projTitle{
+    color: #1B626A;
+    border-bottom: solid 2px #1B626A;
 }
 div{
     padding: 2px;
@@ -34,21 +108,24 @@ li:nth-child(odd){
     background-color: gainsboro;
 }
 .prjContainer{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
     display: flex;
     flex-direction: column;
+    background: whitesmoke;
+    margin: 1.5%;
+    padding: 1%;
 }
 .prjTitleContainer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 1%;
+    border-bottom: solid 2px #1B626A;
 }
 
+
 @media screen and (min-width: 600px){
-    body{
-        width: 85%;
-        margin-left: auto;
-        margin-right: auto;
-    }
     section{
         width: 90%;
         margin-left: auto;

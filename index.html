@@ -3,27 +3,30 @@
     <head>
         <title>Marcus Stevenson</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Crimson+Pro|Nunito|Vollkorn&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
         <link rel="stylesheet" type="text/css" href="main.css">
     </head>
     <body>
         <header>
-            <p>I'm</p><br>
-            <h1>Marcus Stevenson</h1><br>
-            <p>and this is my work.</p>
+            <div class="opacityBox">
+                <p class="headerText hT1">I'm</p><br>
+                <h1>Marcus Stevenson</h1><br>
+                <p class="headerText hT2">and this is my work.</p>
+            </div>
         </header>
         <nav>
-            <input type='button' value='Projects'>
-            <input type='button' value='About Me'>
-            <input type='button' value='Links'>
+            <input type='button' value='Projects' id="projectBtn">
+            <input type='button' value='About Me'id="aboutBtn">
+            <input type='button' value='Links' id="linksBtn">
         </nav>
         <main>
-            <section>
-                <h2>Projects</h2>
+            <section class="projSect">
+                <h2 class="projTitle">Projects</h2>
                 <div class="prjContainer">
                     <div class="prjTitleContainer">
                         <div class="prjTitle">
-                            <h3 >Quiz App</h3>
+                            <h3>Quiz App</h3>
                         </div>
                         <div class="prjLinks">
                             <a href="#">Repository</a>
@@ -50,7 +53,7 @@
                     </div>
                 </div>
             </section>
-            <section>
+            <section class="aboutSect">
                 <h2>About Me</h2>
                 <div>
                     <h3>A Little Background...</h3>
@@ -63,7 +66,7 @@
                         learning the tools to manipulate it to my vision!</p>
                 </div>
             </section>
-            <section>
+            <section class="linksSect">
                 <h2>Links</h2>
                 <div>
                     <ul>

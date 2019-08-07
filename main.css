@@ -10,7 +10,7 @@ h1{
 }
 header{
     padding: 2%;
-    background-image: url(././images/headerImg.jpg);
+    background-image: url(././images/headerImg.JPG);
     background-size: cover;
     background-position: center;
 }
@@ -19,7 +19,7 @@ header{
     width: 100%;
     padding: 1%;
     background-color: rgba(255,255,255, .8);
-    border-radius: 8px;
+    border-radius: 2px;
     line-height: 0.9;
 }
 .headerText{
@@ -115,6 +115,7 @@ li:nth-child(odd){
     background: whitesmoke;
     margin: 1.5%;
     padding: 1%;
+    border-radius: 2px;
 }
 .prjTitleContainer{
     display: flex;

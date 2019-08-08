@@ -48,7 +48,7 @@ nav{
     top: 0;
 }
 input[type=button]{
-    width: 25%;
+    width: 30%;
     font-family: 'Crimson Pro', serif;
     font-size: 24px;
     padding: 1%;
@@ -94,7 +94,7 @@ h2{
     margin-right: auto;
 }
 .projTitle{
-    color: #1B626A;
+    color: #2B9DA9;
     border-bottom: solid 2px #1B626A;
 }
 div{
@@ -114,7 +114,7 @@ li:nth-child(odd){
     flex-direction: column;
     background: whitesmoke;
     margin: 1.5%;
-    padding: 1%;
+    padding: 2%;
     border-radius: 2px;
 }
 .prjTitleContainer{
@@ -124,23 +124,52 @@ li:nth-child(odd){
     padding: 1%;
     border-bottom: solid 2px #1B626A;
 }
+h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+.prjLinks{
+    display: inline-block;
+    border: #1B626A solid 2px;
+    border-radius: 2px;
+    text-decoration: none;
+    padding: 4px;
+    color: #2B9DA9;
+}
+h4{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
 .aboutTitle{
-    color: #A62324;
+    color: #DD2E30;
     border-bottom: solid 2px #A62324;
 }
 .linksTitle{
-    color: #D8892D;
+    color: #F79C33;
     border-bottom: solid 2px #D8892D; 
 }
 .aboutContainer{
     font-family: 'Nunito', sans-serif;
-    font-size: 18px;
     display: flex;
     flex-direction: column;
     background: whitesmoke;
     margin: 1.5%;
     padding: 1%;
     border-radius: 2px;
+}
+.aboutInnerContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    font-size: 18px;
+    line-height: 1.1;
+}
+.headShot{
+    height: 250px;
+    width: 150px;
+    float: left;
+    margin-right: 12px;
 }
 @media screen and (min-width: 600px){
     section{
@@ -157,5 +186,15 @@ li:nth-child(odd){
     }
     .prjTech{
         width: 40%;
+    }
+    .headShot{
+        height: 350px;
+        width: 210px;
+    }
+    input[type=button]{
+        width: 25%;
+    }
+    .aboutInnerContainer{
+        font-size: 20px;
     }
 }

@@ -124,8 +124,24 @@ li:nth-child(odd){
     padding: 1%;
     border-bottom: solid 2px #1B626A;
 }
-
-
+.aboutTitle{
+    color: #A62324;
+    border-bottom: solid 2px #A62324;
+}
+.linksTitle{
+    color: #D8892D;
+    border-bottom: solid 2px #D8892D; 
+}
+.aboutContainer{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    background: whitesmoke;
+    margin: 1.5%;
+    padding: 1%;
+    border-radius: 2px;
+}
 @media screen and (min-width: 600px){
     section{
         width: 90%;

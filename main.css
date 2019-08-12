@@ -4,7 +4,7 @@
 /* HEADER STYLES */
 h1{
     font-family: 'Vollkorn', serif;
-    font-size: 72px;
+    font-size: 60px;
     margin-left: 8%;
     color: #DD2E30;
 }
@@ -24,7 +24,7 @@ header{
 }
 .headerText{
     font-family: 'Crimson Pro', serif;
-    font-size: 36px;
+    font-size: 30px;
     color: #DD2E30;
 }
 .hT1{
@@ -48,9 +48,9 @@ nav{
     top: 0;
 }
 input[type=button]{
-    width: 30%;
+    width: 32%;
     font-family: 'Crimson Pro', serif;
-    font-size: 24px;
+    font-size: 22px;
     padding: 1%;
     background: transparent;
     border-radius: 2px;
@@ -141,6 +141,10 @@ h4{
     font-weight: bold;
     margin-bottom: 8px;
 }
+.prjScreencap{
+    border: #1B626A solid 2px;
+    border-radius: 2px;
+}
 .aboutTitle{
     color: #DD2E30;
     border-bottom: solid 2px #A62324;
@@ -175,8 +179,26 @@ h4{
     width: 85%;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.linkImage{
+    max-height: 190px;
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
 }
 @media screen and (min-width: 600px){
+    h1{
+        font-size: 72px;
+    }
+    .headerText{
+        font-size: 36px;
+    }
+    input[type=button]{
+        font-size: 24px;
+    }
     section{
         width: 90%;
         margin-left: auto;
@@ -201,5 +223,11 @@ h4{
     }
     .aboutInnerContainer{
         font-size: 20px;
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .externalLinks{
+        width: 50%;
     }
 }

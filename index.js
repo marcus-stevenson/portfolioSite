@@ -2,6 +2,12 @@ function projectClick(){
     //when clicked, remove current screen and replace with 
     //screen clicked by user
     $('#projectBtn').on('click', function(e){
+        $('#aboutBtn').attr('aria-pressed', false);
+        $('#linksBtn').attr('aria-pressed', false);
+        $('#projectBtn').attr('aria-pressed', true);
+        $('#aboutBtn').attr('aria-pressed', false);
+        $('#linksBtn').attr('aria-pressed', false);
+        $('#projectBtn').attr('aria-pressed', true);
         $('main').children().remove();
         $('main').html(
         '<section class="projSect"> '+
@@ -41,7 +47,11 @@ function projectClick(){
 function aboutClick(){
     //when clicked, remove current screen and replace with 
     //screen clicked by user, update current screen variable
+    //update aria-pressed attributes
     $('#aboutBtn').on('click', function(e){
+        $('#aboutBtn').attr('aria-pressed', true);
+        $('#linksBtn').attr('aria-pressed', false);
+        $('#projectBtn').attr('aria-pressed', false);
         $('main').children().remove();
         $('main').html(
             '<section class="aboutSect">'+
@@ -49,14 +59,14 @@ function aboutClick(){
                 '<div class="aboutContainer">'+
                     '<div class="aboutInnerContainer">'+
                         '<p>'+
-                            '<img src="images/cuteSelfie.jpg" class="headShot">'+
-                            "For as long as I can remember, I've had a fascination with things and their inner workings. From a young age my parents would"+
-                            "catch me dissasembling flashlights and other junk in my bedroom. As I see it, this fascination pushed me to understand how the"+
-                            "world works, but more importantly it pushed me to imagine and actualize ideas of my own. I have always gravitated toward"+
-                            "learning any skill or technique that would allow me to bring something from my imagination into reality, whether it's drawing,"+
-                            "painting, woodworking, sculpting, electronics, or even coding. Creating and building will always be my passions, whatever"+
-                            "the medium I'm working in. Considering that the web is the most powerful and pervasive medium of our time, I couldn't resist"+
-                            "learning the tools to manipulate it to my vision!"+
+                            '<img src="images/cuteSelfie.jpg" class="headShot" alt="photo of Marcus Stevenson wearing a blue, hooded sweater">'+
+                            "For as long as I can remember, I've had a fascination with things and their inner workings. From a young age, my"+ 
+                            "parents would catch me disassembling flashlights and other junk in my bedroom. As I see it, this fascination pushed"+
+                            "me to understand how the world works, but more importantly, it pushed me to imagine and actualize ideas of my own."+ 
+                            "I have always gravitated toward learning any skill or technique that would allow me to bring something from my"+ 
+                            "imagination into reality, whether it's drawing, painting, woodworking, sculpting, electronics, or even coding."+ 
+                            "Creating and building will always be my passions, whatever the medium I'm working in. Considering that the web is the"+ 
+                            "most powerful and pervasive medium of our time, I couldn't resist learning the tools to manipulate it to my vision!"+
                         '</p>'+
                     '</div>' + 
                 '</div>'+
@@ -66,14 +76,19 @@ function aboutClick(){
 function linksClick(){
     //when clicked, remove current screen and replace with 
     //screen clicked by user, update current screen variable
+    //update aria-pressed attributes
     $('#linksBtn').on('click', function(e){
+        $('#aboutBtn').attr('aria-pressed', false);
+        $('#linksBtn').attr('aria-pressed', true);
+        $('#projectBtn').attr('aria-pressed', false);
         $('main').children().remove();
         $('main').html(
             '<section class="linksSect">'+
                 '<h2 class="linksTitle">Links</h2>'+
                 '<div class="externalLinks">'+
-                    '<a href="https://github.com/marcus-stevenson"><img src="images/GitHub_Logo.png"></a>'+
-                    '<a href="https://www.linkedin.com/"><img src="images/LI-Logo.png"></a>'+
+                    '<a href="mailto:stevensonmarcus193@gmail.com" target="_blank" class="linkImage"><img src="images/gmailLogo.png" alt="gmail logo"></a>'+
+                    '<a href="https://github.com/marcus-stevenson" target="_blank"><img src="images/GitHub_Logo.png" alt="GitHub logo"></a>'+
+                    '<a href="https://www.linkedin.com/" target="_blank"><img src="images/LI-Logo.png" alt="LinkedIn logo"></a>'+
                 '</div>'+    
             '</section>'); 
 });

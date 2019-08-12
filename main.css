@@ -171,6 +171,11 @@ h4{
     float: left;
     margin-right: 12px;
 }
+.externalLinks{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
 @media screen and (min-width: 600px){
     section{
         width: 90%;

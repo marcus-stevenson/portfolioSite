@@ -41,6 +41,36 @@ function projectClick(){
                         '<img src="images/quizAppScShot.PNG">'+
                     '</div>'+
                 '</div>'+
+                //second project
+                '<div class="prjContainer">'+
+                    '<div class="prjTitleContainer">'+
+                        '<div class="prjTitle">'+
+                            '<h3>Easy Best-Seller Search</h3>'+
+                        '</div>'+
+                        '<div>'+
+                            '<a href="https://github.com/marcus-stevenson/QuizAppMarcus" class="prjLinks">Repository</a>'+
+                            '<a href="https://marcus-stevenson.github.io/QuizAppMarcus/" class="prjLinks">Live Site</a>'+
+                        '</div>'+
+                    '</div>'+
+                    '<div class="prjInfoContainer">'+
+                        '<div class="prjDescription">'+
+                            '<h4>Description:</h4>'+
+                            '<p>Easy! Best-Seller Search allows users to search for NYT Best-Sellers and contextual information about their authors by making calls to the NTY Books API and Wikipedia API.</p>'+
+                        '</div>'+
+                        '<div class="prjTech">'+
+                            '<h4>Technologies:</h4>'+
+                            '<ul>'+
+                                '<li>HTML</li>'+
+                                '<li>CSS</li>'+
+                                '<li>JavaScript</li>'+
+                                '<li>JQuery</li>'+
+                            '</ul>'+
+                        '</div>'+
+                    '</div>'+
+                    '<div class="prjScreencap">'+
+                        '<img src="images/NTYscShot.PNG">'+
+                    '</div>'+
+                '</div>'+
             '</section>')
     });
 }

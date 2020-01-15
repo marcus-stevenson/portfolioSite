@@ -12,35 +12,6 @@ function projectClick(){
         $('main').html(
         '<section class="projSect"> '+
                 '<h2 class="projTitle">Projects</h2>'+
-                '<div class="prjContainer">'+
-                    '<div class="prjTitleContainer">'+
-                        '<div class="prjTitle">'+
-                            '<h3>Quiz App</h3>'+
-                        '</div>'+
-                        '<div>'+
-                            '<a href="https://github.com/marcus-stevenson/QuizAppMarcus" class="prjLinks">Repository</a>'+
-                            '<a href="https://marcus-stevenson.github.io/QuizAppMarcus/" class="prjLinks">Live Site</a>'+
-                        '</div>'+
-                    '</div>'+
-                    '<div class="prjInfoContainer">'+
-                        '<div class="prjDescription">'+
-                            '<h4>Description:</h4>'+
-                            '<p>Take a 10 question multiple choice quiz to test your knowledge of famous painters and their works!</p>'+
-                        '</div>'+
-                        '<div class="prjTech">'+
-                            '<h4>Technologies:</h4>'+
-                            '<ul>'+
-                                '<li>HTML</li>'+
-                                '<li>CSS</li>'+
-                                '<li>JavaScript</li>'+
-                                '<li>JQuery</li>'+
-                            '</ul>'+
-                        '</div>'+
-                    '</div>'+
-                    '<div class="prjScreencap">'+
-                        '<img src="images/quizAppScShot.PNG">'+
-                    '</div>'+
-                '</div>'+
                 //second project
                 '<div class="prjContainer">'+
                     '<div class="prjTitleContainer">'+
@@ -71,6 +42,36 @@ function projectClick(){
                         '<img src="images/NTYscShot.PNG">'+
                     '</div>'+
                 '</div>'+
+                //
+                '<div class="prjContainer">'+
+                '<div class="prjTitleContainer">'+
+                    '<div class="prjTitle">'+
+                        '<h3>Quiz App</h3>'+
+                    '</div>'+
+                    '<div>'+
+                        '<a href="https://github.com/marcus-stevenson/QuizAppMarcus" class="prjLinks">Repository</a>'+
+                        '<a href="https://marcus-stevenson.github.io/QuizAppMarcus/" class="prjLinks">Live Site</a>'+
+                    '</div>'+
+                '</div>'+
+                '<div class="prjInfoContainer">'+
+                    '<div class="prjDescription">'+
+                        '<h4>Description:</h4>'+
+                        '<p>Take a 10 question multiple choice quiz to test your knowledge of famous painters and their works!</p>'+
+                    '</div>'+
+                    '<div class="prjTech">'+
+                        '<h4>Technologies:</h4>'+
+                        '<ul>'+
+                            '<li>HTML</li>'+
+                            '<li>CSS</li>'+
+                            '<li>JavaScript</li>'+
+                            '<li>JQuery</li>'+
+                        '</ul>'+
+                    '</div>'+
+                '</div>'+
+                '<div class="prjScreencap">'+
+                    '<img src="images/quizAppScShot.PNG">'+
+                '</div>'+
+            '</div>'+
             '</section>')
     });
 }

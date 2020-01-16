@@ -10,53 +10,53 @@ function projectClick(){
         $('#projectBtn').attr('aria-pressed', true);
         $('main').children().remove();
         $('main').html(
-        '<section class="projSect"> '+
-                '<h2 class="projTitle">Projects</h2>'+
-                //second project
-                '<div class="prjContainer">'+
-                    '<div class="prjTitleContainer">'+
-                        '<div class="prjTitle">'+
-                            '<h3>Easy Best-Seller Search</h3>'+
-                        '</div>'+
-                        '<div>'+
-                            '<a href="https://github.com/marcus-stevenson/QuizAppMarcus" class="prjLinks">Repository</a>'+
-                            '<a href="https://marcus-stevenson.github.io/QuizAppMarcus/" class="prjLinks">Live Site</a>'+
-                        '</div>'+
-                    '</div>'+
-                    '<div class="prjInfoContainer">'+
-                        '<div class="prjDescription">'+
-                            '<h4>Description:</h4>'+
-                            '<p>Easy! Best-Seller Search allows users to search for NYT Best-Sellers and contextual information about their authors by making calls to the NTY Books API and Wikipedia API.</p>'+
-                        '</div>'+
-                        '<div class="prjTech">'+
-                            '<h4>Technologies:</h4>'+
-                            '<ul>'+
-                                '<li>HTML</li>'+
-                                '<li>CSS</li>'+
-                                '<li>JavaScript</li>'+
-                                '<li>JQuery</li>'+
-                            '</ul>'+
-                        '</div>'+
-                    '</div>'+
-                    '<div class="prjScreencap">'+
-                        '<img src="images/NTYscShot.PNG">'+
-                    '</div>'+
-                '</div>'+
-                //
-                '<div class="prjContainer">'+
+            '<section class="projSect">'+
+            '<h2 class="projTitle">Projects</h2>'+
+            '<div class="prjContainer">'+
                 '<div class="prjTitleContainer">'+
                     '<div class="prjTitle">'+
-                        '<h3>Quiz App</h3>'+
+                        '<h3>Qwiic Marble Sorter</h3>'+
                     '</div>'+
                     '<div>'+
-                        '<a href="https://github.com/marcus-stevenson/QuizAppMarcus" class="prjLinks">Repository</a>'+
-                        '<a href="https://marcus-stevenson.github.io/QuizAppMarcus/" class="prjLinks">Live Site</a>'+
+                        '<a href="https://github.com/marcus-stevenson/sorterTutorial" class="prjLinks">Repository</a>'+
+                        '<a href="https://youtu.be/qbnZKsytBUI" class="prjLinks">Video</a>'+
                     '</div>'+
                 '</div>'+
                 '<div class="prjInfoContainer">'+
                     '<div class="prjDescription">'+
                         '<h4>Description:</h4>'+
-                        '<p>Take a 10 question multiple choice quiz to test your knowledge of famous painters and their works!</p>'+
+                        '<p>This tutorial shows how to use the contents of the SparkFun Qwiic Pro Kit and common household materials to assemble a device that sorts clear and opaque marbles. Find arduino sketches, vector files and step-by step instructions in the GitHub Repo. </p>'+
+                    '</div>'+
+                    '<div class="prjTech">'+
+                        '<h4>Skills/Tech:</h4>'+
+                        '<ul>'+
+                            '<li>Redboard Turbo</li>'+
+                            '<li>Qwiic System</li>'+
+                            '<li>Arduino</li>'+
+                            '<li>Digital Fabrication</li>'+
+                            '<li>Video Production</li>'+
+                            '<li>Tutorial Writing</li>'+
+                        '</ul>'+
+                    '</div>'+
+                '</div>'+
+                '<div class="videoPlayer">'+
+                '<iframe width="560" height="315" src="https://www.youtube.com/embed/qbnZKsytBUI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+
+                '</div>'+
+            '</div>'+
+            '<div class="prjContainer">'+
+                '<div class="prjTitleContainer">'+
+                    '<div class="prjTitle">'+
+                        '<h3>Easy Best-Seller Search</h3>'+
+                    '</div>'+
+                    '<div>'+
+                        '<a href="https://github.com/marcus-stevenson/EasyBestSellerSearch" class="prjLinks">Repository</a>'+
+                        '<a href="https://marcus-stevenson.github.io/EasyBestSellerSearch/" class="prjLinks">Live Site</a>'+
+                    '</div>'+
+                '</div>'+
+                '<div class="prjInfoContainer">'+
+                    '<div class="prjDescription">'+
+                        '<h4>Description:</h4>'+
+                        '<p>Easy! Best-Seller Search allows users to search for NYT Best-Sellers and contextual information about their authors by making calls to the NTY Books API and Wikipedia API.</p>'+
                     '</div>'+
                     '<div class="prjTech">'+
                         '<h4>Technologies:</h4>'+
@@ -69,10 +69,38 @@ function projectClick(){
                     '</div>'+
                 '</div>'+
                 '<div class="prjScreencap">'+
-                    '<img src="images/quizAppScShot.PNG">'+
+                    '<img src="images/NTYscShot.PNG">'+
                 '</div>'+
             '</div>'+
-            '</section>')
+            '<div class="prjContainer">'+
+                '<div class="prjTitleContainer">'+
+                    '<div class="prjTitle">'+
+                        '<h3>Video Works</h3>'+
+                    '</div>'+
+                    
+                '</div>'+
+                '<div class="prjInfoContainer">'+
+                    '<div class="prjDescription">'+
+                        '<h4>Description:</h4>'+
+                        '<p>Here are some examples of past experimentations with stop animation and using video to document some of my interactive sculptural work.</p>'+
+                    '</div>'+
+                    '<div class="prjTech">'+
+                        '<h4>Misc. Skills and Hobbies:</h4>'+
+                        '<ul>'+
+                            '<li>Animation</li>'+
+                            '<li>Kinetic Sculpture</li>'+
+                            '<li>Video Production/Editing</li>'+
+                        '</ul>'+
+                    '</div>'+
+                '</div>'+
+                '<div class="videoPlayer">'+
+                    '<iframe width="560" height="315" src="https://www.youtube.com/embed/exh-B6KyNGI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+
+                '</div>'+
+                '<div class="videoPlayer">'+
+                    '<iframe width="560" height="315" src="https://www.youtube.com/embed/bdISYTF59So" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+
+                '</div>'+
+            '</div>'+
+        '</section>')
     });
 }
 function aboutClick(){
@@ -119,7 +147,6 @@ function linksClick(){
                 '<div class="externalLinks">'+
                     '<a href="mailto:stevensonmarcus193@gmail.com" target="_blank" class="linkImage"><img src="images/gmailLogo.png" alt="gmail logo"></a>'+
                     '<a href="https://github.com/marcus-stevenson" target="_blank"><img src="images/GitHub_Logo.png" alt="GitHub logo"></a>'+
-                    '<a href="https://www.linkedin.com/" target="_blank"><img src="images/LI-Logo.png" alt="LinkedIn logo"></a>'+
                 '</div>'+    
             '</section>'); 
 });
